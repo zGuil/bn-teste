@@ -16,4 +16,4 @@ before_install:
 
 script:
 
-- pytest --cov=com.mongoloides com/mongoloides/test/
+- pytest --cov=com.mongoloides com/faculdade/test/
