@@ -14,4 +14,4 @@ def test_root_url():
 
     response = instancia_app.get('/')
 
-    assert response.data.decode('utf-8') == 'Index Page!', 'Deveria ser'
+    assert response.data.decode('utf-8') != 'Index Page!', 'Deveria ser'
