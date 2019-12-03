@@ -1,0 +1,1 @@
+web gunicorn --pythonpath com/faculdade/calculadora app_web_start:app
