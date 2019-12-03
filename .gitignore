@@ -1,3 +1,4 @@
 .pytest_cache
 init.sh
 requirements.txt
+myenv
